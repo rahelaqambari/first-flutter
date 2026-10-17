@@ -101,7 +101,7 @@ Widget SingleBookLayout(Book book){
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [Text(book.name, style: TextStyle(fontSize: 26, fontWeight:  FontWeight.w700),),
-                Text(book.description),
+                Text(book.description, style: TextStyle(fontSize: 12),),
                 Row(
                   crossAxisAlignment: CrossAxisAlignment.end,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
